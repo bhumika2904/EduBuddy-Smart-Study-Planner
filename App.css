@@ -1,0 +1,199 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fdfdfd;
+  color: #222;
+}
+
+.App {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+h3 {
+  font-size: 1.3rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  width: 60%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 16px;
+  margin-left: 8px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #43a047;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  padding: 8px;
+  background-color: #f2f2f2;
+  margin: 5px auto;
+  width: 70%;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: #e0e0e0;
+}
+
+.timer-controls {
+  margin-top: 15px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+
+strong {
+  color: #4caf50;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+
+body.dark {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.dark .App {
+  background-color: #1e1e1e;
+  box-shadow: 0 0 10px #00000066;
+}
+
+body.dark input,
+body.dark button {
+  background-color: #333;
+  color: #eee;
+  border: 1px solid #444;
+}
+
+body.dark li {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+
+
+/* src/App.css */
+.App {
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  margin-top: 50px;
+}
+
+
+
+.App {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+  background: #ffffff;
+  padding: 25px;
+  margin: 30px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+
+
+
+/* src/components/Login.css */
+.login-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background: #f1f1f1;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 90%;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 25px;
+  background-color: #2d2dff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #1a1ac7;
+}
+
+p {
+  margin-top: 15px;
+  color: #333;
+}

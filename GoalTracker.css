@@ -1,0 +1,15 @@
+input[type="text"] {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
